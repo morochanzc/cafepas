@@ -1,0 +1,35 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <img src="assets/images/map.jpg" width="400px">
+      </div>
+      <div class="col-6"><div>
+        <form>
+             <h2>Contactenos</h2>
+            <br/>
+          <div class="form-group">
+            
+            <label for="name">Nombre</label>
+            <input  type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your name">
+            <small id="nameHelp" class="form-text text-muted">Digite su nombre</small>
+
+            <label for="email">Email</label>
+            <input  type="text" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+              placeholder="Enter your email">
+            <small id="nameHelp" class="form-text text-muted">Digite su correo</small>
+
+            <label for="description">Detalle</label>
+            <textarea  name="description" class="form-control" id="description" aria-describedby="descHelp">
+                      </textarea>
+            <small id="descHelp" class="form-text text-muted">Digite su peticion.</small>
+
+          </div>
+        </form>
+        <button class="btn btn-primary" (click)="enviar()">Enviar</button>
+      </div></div>
+    </div>
+  </div>
+
+
+  
